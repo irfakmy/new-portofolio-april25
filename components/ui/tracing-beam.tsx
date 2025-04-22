@@ -17,7 +17,7 @@ export const TracingBeam = ({
   className?: string;
 }) => {
   // const ref = useRef<HTMLDivElement>(null);
-  const ref = useRef<HTMLDivElement>(null!) as React.RefObject<HTMLElement>;
+  const ref = useRef<HTMLDivElement>(null!);
   const { scrollYProgress } = useScroll({
     target: ref,
     offset: ["start start", "end start"]
