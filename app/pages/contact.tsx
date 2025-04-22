@@ -62,7 +62,7 @@ const ContactForm = () => {
         <span className="text-white">Instagram</span> at
         <a
           className="bg-gradient-to-r from-pink-500 to-gray-400 text-transparent bg-clip-text ml-2"
-          href="https://instagram.com/lassiecoder"
+          href="https://instagram.com/irfakkk06"
           target="_blank"
         >
           @irfakkk06
