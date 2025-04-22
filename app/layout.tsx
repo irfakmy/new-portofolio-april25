@@ -5,9 +5,9 @@ import {} from "next/font/google";
 
 export const metadata: Metadata = {
   title:
-    "Portfolio | Priyanka Sharma (lassiecoder) | Mobile & Web app developer",
+    "Portfolio | Muhammad Irfa' Maulana (irfakkk06) |  Web Developer",
   description:
-    "Crafting compelling narratives through design, merging creativity with functionality seamlessly."
+    "merging creativity with functionality seamlessly."
 };
 
 const montserrat = Montserrat({
