@@ -33,7 +33,7 @@ export function Experience() {
       ),
       duration: "2025 – Present",
       smallScreenLogo: (
-        <div className="mt-20">
+        <div className="z-1000">
         <Image
           src="yezzpayre.png"
           alt="yezzpayre-logo"
@@ -99,12 +99,14 @@ export function Experience() {
       ),
       duration: "2023 – Present",
       smallScreenLogo: (
+        <div className="z-[-10]">
         <Image
           src="laravel2.png"
           alt="laravel-logo"
           width={50}
           height={50}
         />
+        </div>
       ),
       content: (
         <div className="max-w-4xl mx-auto">

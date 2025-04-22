@@ -26,7 +26,7 @@ export const Timeline = ({ data }: { data: TimelineEntry[] }) => {
 
   useEffect(() => {
     const handleResize = () => {
-      setIsSmallScreen(window.innerWidth <= 470);
+      setIsSmallScreen(window.innerWidth <= 770);
     };
 
     handleResize();
@@ -52,7 +52,7 @@ export const Timeline = ({ data }: { data: TimelineEntry[] }) => {
   });
 
   const heightTransform = useTransform(scrollYProgress, [0, 1], [0, height]);
-  const opacityTransform = useTransform(scrollYProgress, [0, 0.1], [0, 1]);
+  const opacityTransform = useTransform(scrollYProgress, [0, 0], [0, 1]);
 
   return (
     <div className="w-full dark:bg-neutral-950  md:px-10" ref={containerRef}>
@@ -63,9 +63,9 @@ export const Timeline = ({ data }: { data: TimelineEntry[] }) => {
               data.map((item, index) => (
                 <div key={index} className="flex justify-start md:gap-10 pb-10">
                   {/* Sticky section with 20% width */}
-                  <div className="sticky flex flex-col md:flex-row z-40 items-center top-40 self-start w-1/5 max-w-xs lg:max-w-sm md:w-1/5">
+                  <div className="sticky flex flex-col md:flex-row z-40 items-center top-40 mt-10 self-start w-1/5 max-w-xs lg:max-w-sm md:w-1/5">
                     <div className="h-10 absolute left-3 md:left-3 w-10 rounded-full dark:bg-black flex items-center justify-center">
-                      <div className="">{item.smallScreenLogo}</div>
+                      <div className="z-1000">{item.smallScreenLogo}</div>
                     </div>
                   </div>
 
