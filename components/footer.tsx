@@ -62,7 +62,7 @@ export default function Footer() {
             label="Twitter"
           />
           <SocialLink
-            href="https://instagram.com/@irfakkk06"
+            href="https://instagram.com/irfakkk06"
             icon={FaInstagram}
             label="Instagram"
           />
