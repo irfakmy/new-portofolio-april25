@@ -37,7 +37,7 @@ export function Article() {
       </div>
       <Link
         onClick={trackReadMoreClick}
-        href={"https://techscoop.hashnode.dev"}
+        href={"#"}
         target="_blank"
         className="flex justify-end items-center gap-1 w-full text-gray-300 hover:text-blue-400 transition-colors duration-300"
       >
