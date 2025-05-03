@@ -49,7 +49,7 @@ const ContactForm = () => {
           contact me directly at
           <a
             className=" bg-gradient-to-r from-purple-600 to-gray-400 text-transparent bg-clip-text ml-2"
-            href="mailto:lassiecoder@gmail.com"
+            href="mailto:irfakmaulana05@gmail.com"
             target="_blank"
           >
             irfakmaulana05@gmail.com
